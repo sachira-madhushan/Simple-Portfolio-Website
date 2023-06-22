@@ -1,0 +1,176 @@
+body {
+      background-color: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+
+    .navbar {
+      background-color: #333;
+
+    }
+
+    .navbar-brand,
+    .nav-link {
+      color: #fff;
+    }
+
+    .navbar-brand:hover,
+    .nav-link:hover {
+      color: #bbb;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #fff;
+      padding-bottom: 30px;
+    }
+
+    #about,
+    #education,
+    #experience,
+    #projects,
+    #skills,
+    #contact {
+      padding: 80px 0;
+    }
+
+    .experience-list li:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    .experience h5,
+    .experience p {
+      color: #fff;
+      margin: 0;
+    }
+
+    .experience .sub-experience-list {
+      margin-top: 10px;
+    }
+
+    .experience .sub-experience h6,
+    .experience .sub-experience p {
+      color: #aaa;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #444;
+      color: #fff;
+    }
+
+    .card-title,
+    .card-text {
+      color: #fff;
+    }
+
+    .progress {
+      height: 20px;
+      margin-bottom: 10px;
+      background-color: #555;
+    }
+
+    .progress-bar {
+      background-color: #007bff;
+    }
+
+    .progress-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    #contact {
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+
+    .container.text-center {
+      margin-top: 10px;
+    }
+
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 0 auto;
+      color: #fff;
+      border-right: 0.15em solid #fff;
+      animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink-caret {
+      from,
+      to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: #fff;
+      }
+    }
+
+#home{
+  background-image:url(../img/Background.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+  height:500px;
+  background-color:rgba(0,0,0,0.1);
+  color:white;
+  text-align:right;
+}
+
+.myphoto{
+  width:19.8%;
+}
+.aboutme{
+  text-align:justify;
+}
+
+hr{
+  margin-top:50px;
+  background-color: white;
+  width:80%
+}
+
+button{
+  background-color: transparent;
+  border:1px solid green;
+  color:white;
+  padding:5px 20px 5px 20px ;
+}
+.card-body  img{
+  width:100%;
+  margin-bottom:30px;
+}
+input{
+  
+}
+.form-group{
+ 
+  background-color:black;
+}
+#contact{
+  width:70%;
+   border:3px solid green;
+   margin:0 auto;
+}
